@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon projet professionnel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Mon projet professionnel</h1>
+      <p>Choisissez un domaine pour en savoir plus</p>
+    </header>
+
+    <div class="container" id="main">
+      <div class="card" onclick="show('ui')">
+        <img src="./images/UI_designer.png" alt="UI Design" />
+        <h3>UI Design Game</h3>
+      </div>
+      <div class="card" onclick="show('prompt')">
+        <img src="./images/Prompt_ingeener.png" alt="Prompt Engineering" />
+        <h3>Prompt Engineer</h3>
+      </div>
+      <div class="card" onclick="show('cyber')">
+        <img src="./images/Cyber.jpg" alt="Cybersécurité" />
+        <h3>Cybersécurité</h3>
+      </div>
+    </div>
+
+    <div class="description" id="prompt">
+      <h2>Prompt Engineer</h2>
+      <p>
+        Le Prompt Engineer conçoit des instructions pour optimiser les réponses
+        des IA. Il travaille avec des outils comme ChatGPT, DALL-E, ou Claude.
+        Ce métier combine la logique, la créativité et des compétences tech
+        (API, IA, dev web).
+      </p>
+      <a class="back" href="#" onclick="goBack()">Retour</a>
+    </div>
+
+    <div class="description" id="cyber">
+      <h2>Expert en cybersécurité</h2>
+      <p>
+        Ce professionnel protège les systèmes informatiques contre les
+        cyberattaques. Il analyse les failles, met en place des protocoles de
+        sécurité et surveille les réseaux. Compétences : réseau, cryptographie,
+        pare-feu, analyse de risques.
+      </p>
+      <a class="back" href="#" onclick="goBack()">Retour</a>
+    </div>
+
+
+
+  <div class="description" id="ui">
+  <h2 class="neon-title">UI Designer Game</h2>
+<br>
+  <h3>Appellations possibles</h3>
+  <ul class="neon-list">
+    <li>Game UI Artist (Très courant dans les studios européens et indés)</li>
+    <li>HUD Artist (Spécialisé dans les têtes d'affichage : barres de vie, score...)</li>
+    <li>Visual Designer Gaming (Plutôt dans les gros studios)</li>
+    <li>UI Visual Designer (Très axé esthétique, souvent dans le mobile)</li>
+  </ul>
+<br>
+  <h3>Missions</h3>
+  <ul class="neon-list">
+    <li>Créer les éléments visuels de l’interface : boutons, icônes, HUD, menus, etc.</li>
+    <li>Adapter le style graphique à l’univers du jeu</li>
+    <li>Collaborer avec les game designers, UX designers et développeurs</li>
+    <li>Prototyper l’interface (wireframes, maquettes, mockups)</li>
+    <li>Réaliser des guides de style visuel</li>
+  </ul>
+<br>
+  <h3>Compétences nécessaires</h3>
+  <ul class="neon-list">
+    <li>Graphisme : Photoshop, Illustrator, Figma ou XD</li>
+    <li>Sens visuel : hiérarchie, couleurs, typographie, lisibilité</li>
+    <li>Adaptabilité graphique selon le style du jeu</li>
+    <li>Communication avec l’équipe design/dev</li>
+    <li>Connaissances techniques (moteurs, performances...)</li>
+  </ul>
+<br>
+  <h3>Outils utilisés</h3>
+  <ul class="neon-list">
+    <li><strong>Création :</strong> Photoshop, Illustrator</li>
+    <li><strong>Prototypage :</strong> Figma, Adobe XD</li>
+    <li><strong>Moteurs :</strong> Unity, Unreal</li>
+    <li><strong>Animations UI :</strong> After Effects, Spine</li>
+  </ul>
+<br>
+  <h3>Salaire moyen</h3>
+  <ul class="neon-list">
+    <li>Junior : 30 000€ – 35 000€ brut/an</li>
+    <li>Confirmé : 35 000€ – 40 000€ brut/an</li>
+    <li>Senior / Lead : jusqu’à 60 000€ brut/an</li>
+  </ul>
+<br>
+<br>
+<h3>Et la suite ?</h3>
+<p><strong>À court terme :</strong></p>
+<ul class="neon-list">
+  <li>Approfondir mes connaissances en UI de jeu vidéo</li>
+  <li>Créer un portfolio spécialisé (HUD, menus, interfaces immersives...)</li>
+  <li>Apprendre les outils (Photoshop, Illustrator, After Effects...)</li>
+  <li>Expérimenter sur des petits projets / prototypes</li>
+  <li>Rechercher un stage dans un studio</li>
+</ul>
+<br>
+<p><strong>À moyen terme :</strong></p>
+  <ul class="neon-list">
+    <li>Travailler dans un studio de jeu</li>
+    <li>Maitriser Unity ou Unreal pour l’intégration UI</li>
+    <li>Optimiser la lisibilité et l’esthétique sur divers projets</li>
+    <li>Participer à des Game Jams</li>
+  </ul>
+<br>
+  <p><strong>À long terme :</strong></p>
+  <ul class="neon-list">
+    <li>Superviser la direction visuelle d’un jeu</li>
+    <li>Participer à des conférences ou salons du jeu vidéo</li>
+    <li>Former de futurs UI Designers Game</li>
+  </ul>
+<br>
+  <h3>Offres</h3>
+  <div class="offer-cards">
+   <a href="https://www.ubisoft.com/fr-fr/company/careers/search/744000067401657-concept-artist-assistant-h-f-nb-alternance-septembre-2025" target="_blank" class="offer-card">
+     <h4>Ubisoft – Concept Artist Assistant (Alternance)</h4>
+     <p>Alternance septembre 2025 – studio international, projet créatif encadré</p>
+   </a>
+  
+   <a href="https://fr.indeed.com/q-game-ui-designer-l-%C3%8Ele-de-france-emplois.html" target="_blank" class="offer-card">
+     <h4>Offres Indeed – UI Game Designer</h4>
+     <p>Nombreuses annonces en Île-de-France, junior à senior</p>
+   </a>
+  </div>
+<br>
+  <a class="back" href="#" onclick="goBack()">Retour</a>
+</div>
+
+<script>
+  function show(id) {
+    document.getElementById("main").style.display = "none";
+    document.getElementById("main-header").style.display = "none"; // Masque le header
+    document
+      .querySelectorAll(".description")
+      .forEach((el) => el.classList.remove("active"));
+    document.getElementById(id).classList.add("active");
+  }
+
+  function goBack() {
+    document.getElementById("main").style.display = "flex";
+    document.getElementById("main-header").style.display = "block"; // Réaffiche le header
+    document
+      .querySelectorAll(".description")
+      .forEach((el) => el.classList.remove("active"));
+  }
+</script>
+
+  </body>
+</html>
